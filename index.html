@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Costa Carrelage — Proposition complète</title>
+<meta name="description" content="Proposition L'Rénov IA Studio — 4 supports physiques + 6 directions visuelles pour Adrien & Julie Costa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+    --noir:#222b32;
+    --or:#d4893a;
+    --or-clair:#e8aa5c;
+    --creme:#f2ead8;
+    --blanc:#faf8f4;
+    --noir-soft:#2d3740;
+    --or-glow:rgba(212,137,58,0.15);
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+    font-family:'Manrope',-apple-system,sans-serif;
+    background:var(--noir);
+    color:var(--creme);
+    line-height:1.6;
+    overflow-x:hidden;
+}
+
+body::before{
+    content:'';
+    position:fixed;
+    inset:0;
+    background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+    opacity:0.025;
+    pointer-events:none;
+    z-index:1;
+}
+
+.container{
+    max-width:1280px;
+    margin:0 auto;
+    padding:48px 32px;
+    position:relative;
+    z-index:2;
+}
+
+/* ============================================
+   HERO
+   ============================================ */
+.hero{
+    text-align:center;
+    padding:48px 0 64px;
+    position:relative;
+}
+
+.hero::before{
+    content:'';
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:600px;
+    height:500px;
+    background:radial-gradient(ellipse,var(--or-glow) 0%,transparent 70%);
+    z-index:-1;
+}
+
+.eyebrow{
+    display:inline-block;
+    font-size:0.75rem;
+    letter-spacing:0.4em;
+    text-transform:uppercase;
+    color:var(--or);
+    margin-bottom:20px;
+    font-weight:500;
+}
+
+.eyebrow::before,.eyebrow::after{
+    content:'—';
+    margin:0 14px;
+    color:var(--or-clair);
+}
+
+h1{
+    font-family:'Cormorant Garamond',serif;
+    font-size:clamp(2.2rem,5vw,3.6rem);
+    font-weight:500;
+    line-height:1.1;
+    color:var(--blanc);
+    margin-bottom:20px;
+    letter-spacing:-0.02em;
+}
+
+h1 .accent{color:var(--or);font-style:italic;font-weight:600}
+
+.subtitle{
+    font-size:1.1rem;
+    color:var(--creme);
+    opacity:0.85;
+    max-width:680px;
+    margin:0 auto 32px;
+}
+
+.client-bloc{
+    display:inline-block;
+    padding:18px 40px;
+    border:1px solid var(--or);
+    border-radius:2px;
+    margin-bottom:32px;
+}
+
+.client-name{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.5rem;
+    color:var(--or-clair);
+    margin-bottom:4px;
+}
+
+.client-meta{
+    font-size:0.78rem;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    opacity:0.75;
+}
+
+/* ============================================
+   PRÉAMBULE
+   ============================================ */
+.preamble{
+    background:linear-gradient(135deg,rgba(212,137,58,0.1),rgba(212,137,58,0.04));
+    border:1px solid rgba(212,137,58,0.3);
+    border-radius:2px;
+    padding:28px 36px;
+    max-width:780px;
+    margin:0 auto;
+    position:relative;
+}
+
+.preamble::before{
+    content:'i';
+    position:absolute;
+    top:-18px;
+    left:36px;
+    width:36px;
+    height:36px;
+    background:var(--or);
+    color:var(--noir);
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.4rem;
+    font-style:italic;
+    font-weight:700;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.preamble h3{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.4rem;
+    color:var(--blanc);
+    margin-bottom:12px;
+    font-weight:500;
+}
+
+.preamble h3 .accent{color:var(--or);font-style:italic}
+
+.preamble p{
+    font-size:0.94rem;
+    line-height:1.65;
+    opacity:0.92;
+    margin-bottom:8px;
+}
+
+.preamble p:last-child{margin-bottom:0}
+
+.preamble strong{color:var(--or-clair);font-weight:500}
+
+/* ============================================
+   SECTIONS
+   ============================================ */
+section{padding:72px 0}
+
+.section-title{
+    text-align:center;
+    margin-bottom:48px;
+}
+
+.section-eyebrow{
+    display:inline-block;
+    font-size:0.7rem;
+    letter-spacing:0.4em;
+    text-transform:uppercase;
+    color:var(--or);
+    margin-bottom:14px;
+    font-weight:500;
+}
+
+.section-title h2{
+    font-family:'Cormorant Garamond',serif;
+    font-size:clamp(2rem,4vw,2.8rem);
+    color:var(--blanc);
+    font-weight:500;
+    margin-bottom:14px;
+    letter-spacing:-0.01em;
+}
+
+.section-title h2 .accent{color:var(--or);font-style:italic}
+
+.section-title p{
+    opacity:0.78;
+    max-width:680px;
+    margin:0 auto;
+    font-size:1rem;
+}
+
+/* ============================================
+   QR EXPLAINER
+   ============================================ */
+.qr-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+    max-width:1080px;
+    margin:0 auto;
+}
+
+@media(max-width:900px){
+    .qr-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+.qr-feature{
+    text-align:center;
+    padding:28px 20px;
+    background:rgba(212,137,58,0.04);
+    border:1px solid rgba(212,137,58,0.18);
+    border-radius:2px;
+}
+
+.qr-feature svg{
+    width:36px;
+    height:36px;
+    color:var(--or);
+    margin-bottom:14px;
+}
+
+.qr-feature h3{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.2rem;
+    color:var(--blanc);
+    margin-bottom:8px;
+}
+
+.qr-feature p{
+    font-size:0.84rem;
+    opacity:0.78;
+    line-height:1.5;
+}
+
+/* ============================================
+   SUPPORTS PHYSIQUES
+   ============================================ */
+.supports-section{
+    background:linear-gradient(180deg,transparent,var(--noir-soft) 30%,var(--noir-soft) 70%,transparent);
+    margin:0 -32px;
+    padding-left:32px;
+    padding-right:32px;
+}
+
+.supports-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:32px;
+}
+
+@media(max-width:900px){
+    .supports-grid{grid-template-columns:1fr}
+}
+
+.support-card{
+    background:var(--noir);
+    border:1px solid rgba(212,137,58,0.18);
+    border-radius:2px;
+    overflow:hidden;
+    transition:all 0.3s ease;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+}
+
+.support-card:hover{
+    border-color:var(--or);
+    transform:translateY(-4px);
+    box-shadow:0 12px 40px rgba(0,0,0,0.3);
+}
+
+.support-card.featured{border-color:var(--or)}
+
+.support-card.featured::before{
+    content:'POPULAIRE';
+    position:absolute;
+    top:14px;
+    right:14px;
+    background:var(--or);
+    color:var(--noir);
+    padding:5px 14px;
+    font-size:0.62rem;
+    letter-spacing:0.2em;
+    font-weight:700;
+    border-radius:2px;
+    z-index:10;
+}
+
+.mockup-zone{
+    background:#1a2128;
+    padding:24px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:240px;
+}
+
+.mockup-zone img{
+    max-width:100%;
+    height:auto;
+    display:block;
+    border-radius:2px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.3);
+}
+
+.support-info{
+    padding:24px 28px 28px;
+    display:flex;
+    flex-direction:column;
+    flex-grow:1;
+}
+
+.support-eyebrow{
+    font-size:0.65rem;
+    letter-spacing:0.3em;
+    text-transform:uppercase;
+    color:var(--or);
+    font-weight:600;
+    margin-bottom:6px;
+}
+
+.support-name{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.65rem;
+    color:var(--blanc);
+    margin-bottom:6px;
+}
+
+.support-tagline{
+    font-size:0.88rem;
+    color:var(--or-clair);
+    font-style:italic;
+    margin-bottom:14px;
+    opacity:0.92;
+}
+
+.support-features{
+    list-style:none;
+    margin-bottom:16px;
+    flex-grow:1;
+}
+
+.support-features li{
+    padding:5px 0;
+    padding-left:22px;
+    position:relative;
+    font-size:0.84rem;
+    line-height:1.5;
+}
+
+.support-features li::before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:11px;
+    width:11px;
+    height:6px;
+    border-left:1.8px solid var(--or);
+    border-bottom:1.8px solid var(--or);
+    transform:rotate(-45deg);
+}
+
+.support-price-block{
+    margin-top:auto;
+    padding-top:16px;
+    border-top:1px solid rgba(212,137,58,0.2);
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+}
+
+.support-price-amount{
+    font-family:'Cormorant Garamond',serif;
+    font-size:2.4rem;
+    color:var(--or-clair);
+    font-weight:600;
+    line-height:1;
+}
+
+.support-price-currency{
+    font-size:1.1rem;
+    color:var(--or);
+    margin-left:2px;
+}
+
+.support-price-meta{
+    font-size:0.7rem;
+    opacity:0.65;
+    text-align:right;
+    line-height:1.4;
+}
+
+/* ============================================
+   LINKTREE - IFRAMES VIVANTS
+   ============================================ */
+.linktree-section{padding:80px 0}
+
+.linktree-intro{
+    background:rgba(212,137,58,0.06);
+    border-left:3px solid var(--or);
+    padding:20px 28px;
+    margin:0 auto 48px;
+    max-width:780px;
+    border-radius:2px;
+    font-size:0.92rem;
+    line-height:1.65;
+}
+
+.linktree-intro strong{color:var(--or-clair)}
+
+.linktree-direction{margin-bottom:64px}
+.linktree-direction:last-child{margin-bottom:0}
+
+.direction-header{
+    text-align:center;
+    margin-bottom:32px;
+    padding-bottom:18px;
+    border-bottom:1px solid rgba(212,137,58,0.15);
+}
+
+.direction-name{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.7rem;
+    color:var(--blanc);
+    margin-bottom:6px;
+}
+
+.direction-name .accent{color:var(--or);font-style:italic}
+
+.direction-desc{
+    font-size:0.88rem;
+    opacity:0.72;
+    font-style:italic;
+}
+
+.linktree-pair{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+    max-width:900px;
+    margin:0 auto;
+}
+
+@media(max-width:700px){
+    .linktree-pair{grid-template-columns:1fr;gap:32px}
+}
+
+/* CADRE TÉLÉPHONE pour iframe */
+.phone-frame{
+    background:var(--noir-soft);
+    border:1px solid rgba(212,137,58,0.18);
+    border-radius:2px;
+    padding:18px;
+    text-align:center;
+}
+
+.phone-label{
+    font-size:0.7rem;
+    letter-spacing:0.3em;
+    text-transform:uppercase;
+    color:var(--or);
+    font-weight:600;
+    margin-bottom:14px;
+}
+
+.phone-mockup{
+    background:#000;
+    border-radius:24px;
+    padding:8px;
+    max-width:340px;
+    margin:0 auto;
+    box-shadow:0 12px 40px rgba(0,0,0,0.5),0 4px 12px rgba(0,0,0,0.3);
+    position:relative;
+}
+
+.phone-mockup::before{
+    content:'';
+    position:absolute;
+    top:14px;
+    left:50%;
+    transform:translateX(-50%);
+    width:60px;
+    height:5px;
+    background:#1a1a1a;
+    border-radius:3px;
+    z-index:10;
+}
+
+.phone-screen{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    height:560px;
+    position:relative;
+}
+
+.phone-screen iframe{
+    width:100%;
+    height:100%;
+    border:none;
+    display:block;
+    /* Permet de simuler un téléphone : on agrandit l'iframe pour qu'elle scrolle */
+}
+
+.phone-actions{
+    margin-top:14px;
+    display:flex;
+    justify-content:center;
+    gap:8px;
+}
+
+.phone-btn{
+    display:inline-block;
+    padding:6px 14px;
+    background:transparent;
+    color:var(--or);
+    border:1px solid var(--or);
+    border-radius:2px;
+    text-decoration:none;
+    font-size:0.7rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    font-weight:600;
+    transition:all 0.25s ease;
+    cursor:pointer;
+}
+
+.phone-btn:hover{
+    background:var(--or);
+    color:var(--noir);
+}
+
+/* ============================================
+   RECAP
+   ============================================ */
+.recap-section{
+    background:linear-gradient(180deg,var(--noir-soft),var(--noir));
+    margin:0 -32px;
+    padding:80px 32px;
+}
+
+.recap-table{
+    max-width:900px;
+    margin:0 auto;
+    background:rgba(212,137,58,0.04);
+    border:1px solid rgba(212,137,58,0.2);
+    border-radius:2px;
+    overflow:hidden;
+}
+
+.recap-row{
+    display:grid;
+    grid-template-columns:1.2fr 2fr 0.6fr 1fr;
+    gap:16px;
+    padding:14px 24px;
+    border-bottom:1px solid rgba(212,137,58,0.1);
+    align-items:center;
+}
+
+.recap-row:last-child{border-bottom:none}
+
+.recap-row.header{
+    background:var(--noir);
+    font-size:0.66rem;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    color:var(--or);
+    font-weight:700;
+}
+
+.recap-support{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.1rem;
+    color:var(--blanc);
+}
+
+.recap-desc{
+    font-size:0.82rem;
+    opacity:0.78;
+}
+
+.recap-price{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.3rem;
+    color:var(--or-clair);
+    font-weight:600;
+    text-align:right;
+}
+
+.recap-meta{
+    font-size:0.72rem;
+    opacity:0.65;
+    text-align:right;
+    font-style:italic;
+}
+
+@media(max-width:700px){
+    .recap-row{grid-template-columns:1fr 1fr;font-size:0.82rem}
+    .recap-row.header{display:none}
+    .recap-desc,.recap-meta{display:none}
+}
+
+.included-banner{
+    margin:48px auto 0;
+    max-width:900px;
+    background:linear-gradient(135deg,var(--or),var(--or-clair));
+    color:var(--noir);
+    padding:24px 32px;
+    border-radius:2px;
+    text-align:center;
+}
+
+.included-banner h3{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.4rem;
+    margin-bottom:10px;
+    font-weight:600;
+}
+
+.included-banner p{
+    font-size:0.88rem;
+    line-height:1.5;
+    margin-bottom:14px;
+    opacity:0.92;
+}
+
+.included-list{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    flex-wrap:wrap;
+    font-size:0.82rem;
+    font-weight:600;
+}
+
+/* ============================================
+   PROCESS
+   ============================================ */
+.process-section{padding:64px 0 32px}
+
+.process-row{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:16px;
+    max-width:1080px;
+    margin:32px auto 0;
+}
+
+@media(max-width:900px){
+    .process-row{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:500px){
+    .process-row{grid-template-columns:1fr}
+}
+
+.process-step{
+    background:var(--noir-soft);
+    border:1px solid rgba(212,137,58,0.2);
+    border-radius:2px;
+    padding:18px 16px;
+    text-align:center;
+}
+
+.process-num{
+    font-family:'Cormorant Garamond',serif;
+    font-size:2rem;
+    color:var(--or);
+    line-height:1;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.process-text{
+    font-size:0.82rem;
+    line-height:1.4;
+}
+
+.payment-note{
+    text-align:center;
+    margin-top:24px;
+    font-size:0.92rem;
+    opacity:0.85;
+    font-style:italic;
+}
+
+.payment-note strong{
+    color:var(--or-clair);
+    font-style:normal;
+    font-weight:600;
+}
+
+/* ============================================
+   CLOSING + FOOTER
+   ============================================ */
+.closing-section{
+    text-align:center;
+    padding:48px 32px;
+}
+
+.closing-section h2{
+    font-family:'Cormorant Garamond',serif;
+    font-size:clamp(1.7rem,3.2vw,2.4rem);
+    color:var(--blanc);
+    margin-bottom:16px;
+    font-weight:500;
+    line-height:1.2;
+}
+
+.closing-section h2 .accent{color:var(--or);font-style:italic}
+
+.closing-section p{
+    font-size:0.95rem;
+    opacity:0.85;
+    max-width:680px;
+    margin:0 auto;
+}
+
+footer{
+    text-align:center;
+    padding:48px 32px;
+    border-top:1px solid rgba(212,137,58,0.15);
+    margin-top:48px;
+}
+
+.signature{
+    font-size:0.8rem;
+    opacity:0.7;
+    line-height:1.7;
+}
+
+.signature strong{color:var(--or-clair);font-weight:500}
+
+.copyright-notice{
+    margin-top:24px;
+    padding:14px 22px;
+    background:rgba(212,137,58,0.05);
+    border-left:2px solid var(--or);
+    font-size:0.74rem;
+    text-align:left;
+    max-width:760px;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:1.55;
+    opacity:0.78;
+}
+
+.copyright-notice strong{color:var(--or)}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="eyebrow">Proposition complète</div>
+        <h1>Costa Carrelage <span class="accent">×</span><br>L'Rénov IA Studio</h1>
+        <p class="subtitle">Cartes de visite premium et page web Linktree connectée par QR code. Quatre supports physiques au choix, six directions visuelles à explorer pour la page web.</p>
+        
+        <div class="client-bloc">
+            <div class="client-name">Adrien &amp; Julie Costa</div>
+            <div class="client-meta">Costa Carrelage · Pauillac · Médoc</div>
+        </div>
+
+        <!-- PRÉAMBULE - Rien n'est figé -->
+        <div class="preamble">
+            <h3>Avant de plonger dans les <span class="accent">visuels</span></h3>
+            <p>Tout ce que vous allez voir dans cette présentation est une <strong>proposition de visuels</strong> — du support physique de la carte au design de la page web qui s'ouvre quand on flash le QR code.</p>
+            <p>L'objectif est de vous montrer <strong>tout ce qu'on peut faire</strong> ensemble : les matières, les finitions, les ambiances graphiques. <strong>Rien n'est figé.</strong> Couleurs, polices, formats, contenus, libellés — chaque détail sera validé avec vous avant production.</p>
+            <p>Les pages web Linktree ci-dessous sont <strong>vivantes et interactives</strong> : scrollez à l'intérieur pour les explorer.</p>
+        </div>
+    </section>
+
+    <!-- QR EXPLAINER -->
+    <section>
+        <div class="section-title">
+            <span class="section-eyebrow">Le principe</span>
+            <h2>Une carte qui <span class="accent">connecte</span></h2>
+            <p>Le QR code imprimé ou gravé sur chaque carte ouvre une page de liens à votre nom (interface type Linktree). Un scan suffit à votre interlocuteur pour accéder à tout.</p>
+        </div>
+
+        <div class="qr-grid">
+            <div class="qr-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                <h3>Carte de contact</h3>
+                <p>Vos coordonnées s'enregistrent dans le téléphone, sans saisie manuelle.</p>
+            </div>
+            <div class="qr-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                <h3>WhatsApp direct</h3>
+                <p>Un clic et la conversation démarre, sans copier votre numéro.</p>
+            </div>
+            <div class="qr-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                <h3>Demande de devis</h3>
+                <p>Bouton dédié qui ouvre un email pré-rempli vers votre adresse pro.</p>
+            </div>
+            <div class="qr-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                <h3>Vos réalisations</h3>
+                <p>Châteaux viticoles, piscines, tomettes, marbre — vos chantiers en photos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- VOLET 1 - SUPPORTS PHYSIQUES -->
+    <section class="supports-section">
+        <div class="section-title">
+            <span class="section-eyebrow">Volet 1 — Support physique de la carte</span>
+            <h2>Quatre <span class="accent">matières</span> au choix</h2>
+            <p>Du PVC accessible au métal brossé prestige. Chaque mockup ci-dessous est une proposition graphique — la création finale sera personnalisée avec votre vrai logo et vos infos validées.</p>
+        </div>
+
+        <div class="supports-grid">
+
+            <div class="support-card">
+                <div class="mockup-zone">
+                    <img src="mockups/pvc.png" alt="Carte PVC Costa">
+                </div>
+                <div class="support-info">
+                    <div class="support-eyebrow">Essentiel</div>
+                    <div class="support-name">Carte PVC</div>
+                    <div class="support-tagline">L'efficacité d'une carte qui dure</div>
+                    <ul class="support-features">
+                        <li>Plastique premium quadri recto-verso</li>
+                        <li>QR code imprimé pointant vers votre page</li>
+                        <li>Résistante eau, pliures, portefeuille</li>
+                        <li>Format européen 85×54 mm</li>
+                    </ul>
+                    <div class="support-price-block">
+                        <div>
+                            <span class="support-price-amount">35</span><span class="support-price-currency">€</span>
+                        </div>
+                        <span class="support-price-meta">prix unitaire<br>TVA non applicable</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="support-card featured">
+                <div class="mockup-zone">
+                    <img src="mockups/bois.png" alt="Carte Bois Costa">
+                </div>
+                <div class="support-info">
+                    <div class="support-eyebrow">Caractère</div>
+                    <div class="support-name">Carte Bois</div>
+                    <div class="support-tagline">L'âme de l'artisanat dans la main</div>
+                    <ul class="support-features">
+                        <li>Bois véritable gravé laser haute précision</li>
+                        <li>QR code gravé directement dans le bois</li>
+                        <li>Veines naturelles uniques sur chaque carte</li>
+                        <li>Effet matière premium qu'on conserve</li>
+                    </ul>
+                    <div class="support-price-block">
+                        <div>
+                            <span class="support-price-amount">50</span><span class="support-price-currency">€</span>
+                        </div>
+                        <span class="support-price-meta">prix unitaire<br>TVA non applicable</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="support-card">
+                <div class="mockup-zone">
+                    <img src="mockups/metal-noir.png" alt="Carte Métal noir Costa">
+                </div>
+                <div class="support-info">
+                    <div class="support-eyebrow">Signature</div>
+                    <div class="support-name">Métal noir</div>
+                    <div class="support-tagline">Le luxe contemporain qui ne se jette pas</div>
+                    <ul class="support-features">
+                        <li>Métal noir mat anodisé, finition premium</li>
+                        <li>Gravure laser fine et durable</li>
+                        <li>Format vertical avec QR intégré</li>
+                        <li>Coins arrondis, épaisseur 0,5 mm</li>
+                    </ul>
+                    <div class="support-price-block">
+                        <div>
+                            <span class="support-price-amount">78</span><span class="support-price-currency">€</span>
+                        </div>
+                        <span class="support-price-meta">prix unitaire<br>TVA non applicable</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="support-card">
+                <div class="mockup-zone">
+                    <img src="mockups/metal-brosse.png" alt="Carte Métal brossé Costa">
+                </div>
+                <div class="support-info">
+                    <div class="support-eyebrow">Prestige</div>
+                    <div class="support-name">Métal brossé</div>
+                    <div class="support-tagline">L'élégance d'une matière noble</div>
+                    <ul class="support-features">
+                        <li>Inox brossé qualité supérieure</li>
+                        <li>Gravure laser haute précision</li>
+                        <li>Aspect lumineux, valorise le geste</li>
+                        <li>Format vertical · QR scannable</li>
+                    </ul>
+                    <div class="support-price-block">
+                        <div>
+                            <span class="support-price-amount">78</span><span class="support-price-currency">€</span>
+                        </div>
+                        <span class="support-price-meta">prix unitaire<br>TVA non applicable</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- VOLET 2 - LINKTREE VIVANTS -->
+    <section class="linktree-section">
+        <div class="section-title">
+            <span class="section-eyebrow">Volet 2 — Page web qui s'ouvre quand on scanne</span>
+            <h2>Trois <span class="accent">directions visuelles</span> à explorer</h2>
+            <p>Voici à quoi ressemblera la page web personnelle de chacun (Adrien et Julie ont chacun la leur). Trois ambiances graphiques différentes pour vous donner des pistes — vous choisirez celle qui vous parle, ou on en imaginera une autre.</p>
+        </div>
+
+        <div class="linktree-intro">
+            <strong>Ces aperçus sont vivants :</strong> scrollez à l'intérieur de chaque téléphone pour voir le contenu, cliquez sur "Ouvrir en grand" pour voir la page en plein écran. Le contenu, les boutons, les couleurs et les polices sont tous modifiables.
+        </div>
+
+        <!-- DIRECTION 1 - BÉTON -->
+        <div class="linktree-direction">
+            <div class="direction-header">
+                <div class="direction-name">Direction 1 — <span class="accent">Béton industriel chic</span></div>
+                <div class="direction-desc">Tons gris ardoise et crème, typo épurée. Look contemporain, technique, sobre.</div>
+            </div>
+            <div class="linktree-pair">
+                <div class="phone-frame">
+                    <div class="phone-label">Page d'Adrien</div>
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <iframe src="linktree/D1-beton-adrien.html" title="Linktree Adrien Béton" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="phone-actions">
+                        <a href="linktree/D1-beton-adrien.html" target="_blank" class="phone-btn">Ouvrir en grand</a>
+                    </div>
+                </div>
+                <div class="phone-frame">
+                    <div class="phone-label">Page de Julie</div>
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <iframe src="linktree/D1-beton-julie.html" title="Linktree Julie Béton" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="phone-actions">
+                        <a href="linktree/D1-beton-julie.html" target="_blank" class="phone-btn">Ouvrir en grand</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DIRECTION 2 - MARBRE -->
+        <div class="linktree-direction">
+            <div class="direction-header">
+                <div class="direction-name">Direction 2 — <span class="accent">Marbre veiné &amp; or</span></div>
+                <div class="direction-desc">Noir profond, accents dorés, typo classique. Ambiance luxe château, prestige du marbre que vous travaillez.</div>
+            </div>
+            <div class="linktree-pair">
+                <div class="phone-frame">
+                    <div class="phone-label">Page d'Adrien</div>
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <iframe src="linktree/D2-marbre-adrien.html" title="Linktree Adrien Marbre" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="phone-actions">
+                        <a href="linktree/D2-marbre-adrien.html" target="_blank" class="phone-btn">Ouvrir en grand</a>
+                    </div>
+                </div>
+                <div class="phone-frame">
+                    <div class="phone-label">Page de Julie</div>
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <iframe src="linktree/D2-marbre-julie.html" title="Linktree Julie Marbre" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="phone-actions">
+                        <a href="linktree/D2-marbre-julie.html" target="_blank" class="phone-btn">Ouvrir en grand</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DIRECTION 3 - PIERRE -->
+        <div class="linktree-direction">
+            <div class="direction-header">
+                <div class="direction-name">Direction 3 — <span class="accent">Pierre calcaire Médoc</span></div>
+                <div class="direction-desc">Tons pierre claire, terracotta sobre, typo serif patrimoine. Ancrage terroir et bâtisses anciennes.</div>
+            </div>
+            <div class="linktree-pair">
+                <div class="phone-frame">
+                    <div class="phone-label">Page d'Adrien</div>
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <iframe src="linktree/D3-pierre-adrien.html" title="Linktree Adrien Pierre" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="phone-actions">
+                        <a href="linktree/D3-pierre-adrien.html" target="_blank" class="phone-btn">Ouvrir en grand</a>
+                    </div>
+                </div>
+                <div class="phone-frame">
+                    <div class="phone-label">Page de Julie</div>
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <iframe src="linktree/D3-pierre-julie.html" title="Linktree Julie Pierre" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="phone-actions">
+                        <a href="linktree/D3-pierre-julie.html" target="_blank" class="phone-btn">Ouvrir en grand</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECAP -->
+    <section class="recap-section">
+        <div class="section-title">
+            <span class="section-eyebrow">Synthèse</span>
+            <h2>Récapitulatif <span class="accent">tarifaire</span></h2>
+            <p>Tous les prix s'entendent par carte unitaire, page web personnelle incluse.</p>
+        </div>
+
+        <div class="recap-table">
+            <div class="recap-row header">
+                <div>Support</div>
+                <div>Caractéristique</div>
+                <div>Prix unitaire</div>
+                <div>Niveau</div>
+            </div>
+            <div class="recap-row">
+                <div class="recap-support">PVC</div>
+                <div class="recap-desc">Plastique quadri recto-verso, format paysage</div>
+                <div class="recap-price">35 €</div>
+                <div class="recap-meta">Essentiel</div>
+            </div>
+            <div class="recap-row">
+                <div class="recap-support">Bois</div>
+                <div class="recap-desc">Bois gravé laser, format paysage</div>
+                <div class="recap-price">50 €</div>
+                <div class="recap-meta">Caractère</div>
+            </div>
+            <div class="recap-row">
+                <div class="recap-support">Métal noir</div>
+                <div class="recap-desc">Métal noir mat anodisé, format vertical</div>
+                <div class="recap-price">78 €</div>
+                <div class="recap-meta">Signature</div>
+            </div>
+            <div class="recap-row">
+                <div class="recap-support">Métal brossé</div>
+                <div class="recap-desc">Inox brossé argent, format vertical</div>
+                <div class="recap-price">78 €</div>
+                <div class="recap-meta">Prestige</div>
+            </div>
+        </div>
+
+        <div class="included-banner">
+            <h3>Inclus dans chaque carte</h3>
+            <p>Quel que soit le support choisi, votre carte est livrée prête à l'usage avec sa page de liens connectée.</p>
+            <div class="included-list">
+                <span>✓ Page de liens à votre nom (interface type Linktree)</span>
+                <span>✓ vCard téléchargeable</span>
+                <span>✓ QR code généré et intégré</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process-section">
+        <div class="section-title">
+            <span class="section-eyebrow">Étapes</span>
+            <h2>Comment on <span class="accent">avance</span></h2>
+            <p>Délai de production : 2 à 3 semaines maximum, selon le support et le graveur.</p>
+        </div>
+
+        <div class="process-row">
+            <div class="process-step">
+                <div class="process-num">1</div>
+                <div class="process-text">Validation du support et de la direction</div>
+            </div>
+            <div class="process-step">
+                <div class="process-num">2</div>
+                <div class="process-text">Signature et règlement à la commande</div>
+            </div>
+            <div class="process-step">
+                <div class="process-num">3</div>
+                <div class="process-text">Maquette finale et page web en validation</div>
+            </div>
+            <div class="process-step">
+                <div class="process-num">4</div>
+                <div class="process-text">Livraison cartes 2 à 3 semaines max</div>
+            </div>
+        </div>
+
+        <div class="payment-note">
+            <strong>Règlement intégral à la commande</strong> · Pas d'acompte, pas de solde différé.
+        </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="closing-section">
+        <h2>Prêts à donner à <span class="accent">Costa Carrelage</span><br>l'image de votre métier ?</h2>
+        <p>Prenez le temps de regarder, échangez ensemble, et dites-moi ce qui vous plaît, ce qui vous plaît moins, ce qu'on adapte. C'est votre identité — on construit ce qui vous ressemble vraiment.</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="signature">
+            Proposition préparée par <strong>Laurence Borras</strong> · L'Rénov IA Studio<br>
+            Blanquefort · SIRET 912 942 869 00013 · TVA non applicable, art. 293 B du CGI<br>
+            <a href="https://lrenov-ia.studio" style="color:var(--or);text-decoration:none">lrenov-ia.studio</a>
+        </div>
+
+        <div class="copyright-notice">
+            <strong>Mention de propriété intellectuelle :</strong> les visuels, maquettes et mockups présentés dans ce document sont la propriété exclusive de <strong>L'Rénov IA Studio</strong> et constituent une proposition commerciale destinée uniquement à Adrien &amp; Julie Costa. Toute reproduction, diffusion ou réutilisation, totale ou partielle, sans accord écrit préalable est strictement interdite.
+        </div>
+    </footer>
+
+</div>
+
+</body>
+</html>
